@@ -24,16 +24,19 @@ Adversary
 -----------------------------------------
 * Adaptive Adversary: 実行時の挙動を見てそれに対抗する策を講じる
 
-  * ● Adaptive offline model: Adaptive Adversary + 最適offline algorithm. すべてのdataが揃ってから対策を講じる. 最強.
-  * ● Adaptive online model: Adaptive Adversary + online algorithm. onlineでdataを参照しつつ対策を講じる. まあまあ.
+  * Adaptive offline model: Adaptive Adversary + 最適offline algorithm. すべてのdataが揃ってから対策を講じる. 最強.
+  * Adaptive online model: Adaptive Adversary + online algorithm. onlineでdataを参照しつつ対策を講じる. まあまあ.
 
-* ● Oblivious Adversary: 実行プログラムを見て、それに対抗する策を事前に作成する. 最弱.
+* Oblivious Adversary: 実行プログラムを見て、それに対抗する策を事前に作成する. 最弱.
 
 
 
 乱択アルゴリズムの設計
 -----------------------------------------
 
+レンタルスキー再掲
+*****************************************
+スキー板の値段を :math:`X` , レンタル料を :math:`Y` とする。競合比は
 
 .. math::
 	 A = \frac{2(s-m)X}{r} = (2s - r)Y
