@@ -24,10 +24,10 @@ Adversary
 -----------------------------------------
 * Adaptive Adversary: 実行時の挙動を見てそれに対抗する策を講じる
 
-  * (A) Adaptive offline model: Adaptive Adversary + 最適offline algorithm. すべてのdataが揃ってから対策を講じる. 最強.
-  * (B) Adaptive online model: Adaptive Adversary + online algorithm. onlineでdataを参照しつつ対策を講じる. まあまあ.
+  * ● Adaptive offline model: Adaptive Adversary + 最適offline algorithm. すべてのdataが揃ってから対策を講じる. 最強.
+  * ● Adaptive online model: Adaptive Adversary + online algorithm. onlineでdataを参照しつつ対策を講じる. まあまあ.
 
-* (C) Oblivious Adversary: 実行プログラムを見て、それに対抗する策を事前に作成する. 最弱.
+* ● Oblivious Adversary: 実行プログラムを見て、それに対抗する策を事前に作成する. 最弱.
 
 
 
