@@ -18,10 +18,23 @@
 
   * 確率的素数判定。出力は「確実に合成数である」または「おそらく素数である（判定失敗確率付）になる。
 
-ここでの議論はどれにあたるのか？ぱっと見て3つ目？
+などなど。
+
+Adversary
+-----------------------------------------
+* Adaptive Adversary: 実行時の挙動を見てそれに対抗する策を講じる
+
+  * (A) Adaptive offline model: Adaptive Adversary + 最適offline algorithm. すべてのdataが揃ってから対策を講じる. 最強.
+  * (B) Adaptive online model: Adaptive Adversary + online algorithm. onlineでdataを参照しつつ対策を講じる. まあまあ.
+
+* (C) Oblivious Adversary: 実行プログラムを見て、それに対抗する策を事前に作成する. 最弱.
+
+
 
 乱択アルゴリズムの設計
 -----------------------------------------
+
+
 .. math::
 	 A = \frac{2(s-m)X}{r} = (2s - r)Y
 
