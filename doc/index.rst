@@ -11,8 +11,9 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   randomized_algorithms
-
+   2_online_algorithms_basic
+   2_4_randomized_algorithms
+   6_stream_algorithms
 
 Indices and tables
 ==================
