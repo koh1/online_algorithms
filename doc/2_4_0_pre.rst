@@ -35,7 +35,21 @@
 アドバーザリ (Adversary)
 ---------------------------------------------------------
 
-.. list-table::
+.. list-table:: Adversary
+   :widths: 1 4 4
+   :header-rows: 1
+   :stub-columns: 1
+
+   * - \
+     - Adaptive
+     - Oblivious
+   * - ON
+     - Adaptive Adversary + On-line 
+     - Oblivious Adversary + On-line
+   * - OFF
+     - Adaptive Adversary + Off-line
+     - Oblivious Adversary + Off-line
+
 
 
 * Adversary: 敵、競争相手
