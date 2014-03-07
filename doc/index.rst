@@ -9,10 +9,14 @@ Online Algorithms
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    2_online_algorithms_basic
    2_4_randomized_algorithms
+   2_4_1_ra_design_ra
+   2_4_2_ra_paging
+   2_4_3_ra_minimum
+   2_4_4_ra_list_access
    6_stream_algorithms
 
 Indices and tables
